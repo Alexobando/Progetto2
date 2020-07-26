@@ -1,0 +1,15 @@
+<?xml version=”1.0” encoding=”ISO-8859-1”?>
+<web-app>
+
+<display-name> Pagina Acquisto</display-name>
+<description> Disponibilità dei dispositivi </description>
+<servlet>
+<servlet-name>Smartphone </servlet-name>
+<servlet-class>Smartphone </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Smartphone </servlet-name>
+<url-pattern>/servlets/servlet/mieiBean/Smartphone </url-pattern>
+</servlet-mapping>
+
+</web-app>
